@@ -11,7 +11,8 @@
     "test-api": "node test-api.js",
     "setup": "node scripts/setup.js",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "stripe-webhook": "stripe listen --forward-to localhost:3000/api/v1/webhooks/stripe"
   },
   "keywords": ["payments", "api", "stripe", "gateway", "fastify"],
   "author": "SalesCode",
