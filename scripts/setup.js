@@ -55,8 +55,6 @@ console.log('- Configure webhooks em: https://dashboard.stripe.com/webhooks');
 
 console.log('\n✨ Setup concluído com sucesso!');
 
-const fs = require('fs');
-const path = require('path');
 const readline = require('readline');
 
 const rl = readline.createInterface({
