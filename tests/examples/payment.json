@@ -1,0 +1,12 @@
+{
+  "gateway": "stripe",
+  "amount": 99.90,
+  "currency": "brl",
+  "description": "Produto Premium - Teste",
+  "customerEmail": "cliente@exemplo.com",
+  "metadata": {
+    "orderId": "ORDER-12345",
+    "userId": "USER-789",
+    "source": "website"
+  }
+}

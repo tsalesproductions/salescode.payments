@@ -1,0 +1,16 @@
+{
+  "gateway": "stripe",
+  "amount": 49.90,
+  "currency": "brl",
+  "interval": "month",
+  "intervalCount": 1,
+  "productName": "Plano Profissional",
+  "description": "Acesso completo à plataforma",
+  "customerEmail": "cliente@exemplo.com",
+  "trialPeriodDays": 14,
+  "metadata": {
+    "planId": "PLAN-PRO",
+    "userId": "USER-789",
+    "source": "landing-page"
+  }
+}

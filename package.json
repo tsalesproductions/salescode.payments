@@ -1,0 +1,33 @@
+{
+  "name": "salescode-payments",
+  "version": "1.0.0",
+  "description": "API de pagamentos com integração a múltiplos gateways",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "test-server": "node test-server.js",
+    "test-api": "node test-api.js",
+    "setup": "node scripts/setup.js",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": ["payments", "api", "stripe", "gateway", "fastify"],
+  "author": "SalesCode",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "@fastify/cors": "^8.4.0",
+    "@fastify/swagger": "^8.12.0",
+    "@fastify/swagger-ui": "^2.1.0",
+    "stripe": "^14.9.0",
+    "dotenv": "^16.3.1",
+    "@fastify/env": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "axios": "^1.6.2"
+  }
+}
